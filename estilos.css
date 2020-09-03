@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: .49fr .51fr;
+}
+
+.container-div1 {
+    display: inherit;
+    align-items: center;
+    justify-items: center;
+    color: white;
+    background-image: url('twitter-image.jpg');
+    background-size: 100% 100%;
+}
+
+li {
+    list-style: none;
+    text-align: left;
+    margin: 8vh;
+    font-size: 18px;
+    font-weight: bold;    
+}
+
+.container-div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.description-box {
+    height: 40vh;
+    font-size: 15px;
+}
+
+.button-box {
+    width: 105%;
+    font-size: 15px;
+    height: 25vh;
+}
+
+input {
+    padding: 12px;
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.blue-button {
+    background-color: rgb(49, 159, 243);
+    border: none;
+    color: white;
+}
+
+.white-button {
+    color: rgb(40, 142, 220, 1);
+    border: 1px solid rgb(40, 142, 220, 1);
+    background-color: white;
+}
+
+.blue-button:hover {
+    background-color: rgb(27, 126, 201);;
+}
+
+.white-button:hover {
+    background-color: rgb(234, 245, 248);
+}
+
+.link-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.links {
+    text-decoration: none;
+    padding: 9px;
+    color: gray;
+}
+
+.links:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    color: gray;
+    font-size: 13px;
+}
